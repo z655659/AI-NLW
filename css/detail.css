@@ -1,0 +1,252 @@
+	/*顶部nav 左侧圆圈图标信息*/
+.arc_box{
+	width: 45%;
+	height:150px;
+}
+p{margin:0;padding: 0}
+.arc_left{
+	width:65px;
+	height: 65px;
+	border-radius: 50%;
+	line-height: 65px;
+	text-align: center;
+	background: rgb(52,203,170);
+	font-size:18px;
+	margin-top: 42.5px;
+}
+.arc_left_msg{
+	height: 65px;
+}
+.arc_left_msg_top{
+	height: 32.5px;
+	line-height: 32.5px;
+	font-size:24px;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 42.5px;
+	margin-left: 10px;
+}
+.arc_left_msg_bottom{
+	height: 32.5px;
+	line-height: 32.5px;
+	font-size: 12px;
+	color: #ccc;
+	margin-left: 10px;
+}
+/*主要信息添加框*/
+.add_msg_box{
+	width: 55%;
+	height: 150px;
+}
+.add_msg_size{
+	width: 50%;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+.add_msg_icon,.add_msg_span{
+	color:#fff;
+	font-size: 16px;
+	cursor: pointer;s
+}
+/*Train the modle*/
+.input_box{
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.input_size{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	/*font-weight: 600;*/
+	text-align: left;
+	font-size:24px;
+}
+
+.input_bottom{
+	width: 90%;
+	height: 100px;
+	line-height: 100px;
+	/*background-color: pink*/
+}
+.input_bottom{
+	position: relative;
+}
+.Asa_input{
+	width:88%;
+	height:75px;
+	padding-left: 15px;
+	margin-top: 12.5px;
+	border-radius: 5px;
+	font-size: 20px;
+	outline: none;
+	border:0 none;
+	box-shadow: 0px 0px 35px rgba(252,250,250,.6);
+	position:absolute;
+}
+.Asa_btn{
+	width: 13%;
+	height: 70px;
+	margin-top: 15.5px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 70px;
+	outline: none;
+	border:0 none;
+	background-color: rgb(82,147,0);
+}
+
+/*信息提示蓝 detail_content_box*/
+.detail_content_box{
+	height: 300px;
+	background-color:rgb(41,37,61);
+	width: 100%;
+	margin-top: 15px;
+	/*display: none;*/
+}
+.detail_select{
+	width: 72%;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+}
+.detail_select>.detail_span{
+	font-size:16px;
+	color: #fff;
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.detail_icon{
+	font-size:24px;
+	margin-top: 11px;
+	margin-right:12px;
+	color: rgba(255,201,0,.9);
+	box-shadow: 0px 0px 22px rgb(251,199,7);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+/*彈出框的樣式*/
+
+.creat{
+	margin: 5px auto;
+	height: auto;
+}
+.creta_text{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.modal-body .creat .creat_input{
+	line-height: 34px;
+	border-radius: 8px;
+	z-index: 3;
+	box-shadow: 1px;
+}
+.creat_btn{
+	width:76px;
+	margin-top:-2px;
+	z-index: 2;
+	background:rgb(136,193,251);
+	border: 0;
+}
+.search{
+	margin: 5px auto;
+	height: auto;
+}
+.search_text{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.modal-body .search .search_input{
+	line-height: 34px;
+	border-radius: 8px;
+	z-index: 3;
+	box-shadow: 1px;
+}
+.list{
+	margin: 5px auto;
+	height: auto;
+}
+.list_row{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.list_btn{
+	height: 34px;
+	line-height: 34px;
+	border: 0;
+	border-radius: 3px;
+	background:rgb(78,156,251);
+	color: white;
+	padding:0 auto;
+	cursor: pointer;
+	box-shadow: 2px;
+}
+.list_active{
+	background: white;
+	color: black;
+	border:1px solid black;
+}
+.stats{
+	margin: 5px auto;
+	height: auto;
+}
+.stats_text{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.add{
+	margin: 5px auto;
+	height: auto;
+}
+.add_text{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.add_btn{
+	width:76px;
+	z-index: 2;
+	background:rgb(136,193,251);
+	border: 0;
+}
+.left_nav a:hover,.left_nav a:link,.left_nav a:visited,.left_nav a:active{
+	color: white;
+	text-decoration: none;
+}
+.stats_form{
+	border:1px solid rgb(229,229,229);
+	border-radius: 3px;
+}
+.stats_form_top{
+	border-bottom:1px solid rgb(229,229,229);
+}
+
+
+@media screen and (max-width:1350px) {
+	.add_msg_box{
+		position: absolute;
+		top: 200px;
+		left:50%;
+		margin-left:-282px;
+		height:50px;
+		line-height: 50px;
+	}
+	.add_msg_size{
+		height:50px;
+		line-height:50px;
+	}
+	.Asa_btn{
+		width:19%;
+	}
+	.Asa_input{
+		width: 82%;
+	}
+	.detail_content_box{
+		margin-top:50px;
+	}
+}

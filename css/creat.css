@@ -1,0 +1,27 @@
+.name_input{
+	line-height: 40px;
+	border-radius: 10px;
+	outline: none;
+	border: 0 ;
+}
+.name_save{
+	margin-top:20%;
+}
+.zh_save{
+	outline: none;
+	border: 0;
+}
+.zh_btn{
+	z-index: 2;
+	margin-left: -5px;
+	margin-top: 4px;
+}
+
+.zh_save a:hover,.zh_save a:link,.zh_save a:visited,.zh_save a:active{
+	color: white;
+	text-decoration: none;
+}
+.left_nav a:hover,.left_nav a:link,.left_nav a:visited,.left_nav a:active{
+	color: white;
+	text-decoration: none;
+}

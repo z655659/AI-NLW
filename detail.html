@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<mate name="viweport" content="width=device-width, initial-scale=1">
+	<title>Screenrecord</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/commen.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 最外层的盒子 -->
+		<div class="nav">
+		<!-- 导航 -->
+			<div class="nav_content wrapper">
+				<ul class="left_nav fl">
+					<li>
+						Show all apps
+					</li>
+					<li>Chatflow</li>
+					<li><a href="index.html">CNLU</a></li>
+				</ul>
+				<ul class="right_nav fr">
+					<li>
+						name
+						<span class="caret"></span>
+					</li>
+					<li>Docs</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 主要信息 -->
+		<div class="content">
+			<div class="wrapper">
+				<div class="logo_and_table">
+					<h1 class="logo fl">
+						<!-- 图标小圈圈 -->
+						<div class="arc_box fl">
+							<!-- 圆 -->
+							<div class="arc_left fl">
+								<a href="###" style="color: #fff">
+									M
+								</a>
+							</div>
+							<div class="arc_left_msg fl">
+								<div class="arc_left_msg_top">
+									MmyBot
+								</div>
+								<div class="arc_left_msg_bottom">
+									Created 17/12/20
+								</div>
+							</div>
+						</div>
+						<!-- 主要信息添加框 -->
+						<div class="add_msg_box fr">
+							<p class="add_msg_size fl">
+								<span class="glyphicon glyphicon-plus-sign add_msg_icon"></span>
+								<span class="add_msg_span">Set up intents</span>
+							</p>
+							<p class="add_msg_size fl">
+								<span class="glyphicon glyphicon-plus-sign add_msg_icon"></span>
+								<span class="add_msg_span">Set up entities</span>
+							</p>
+						</div>
+					</h1>
+					<!-- table_btn -->
+					<div class="table_btn_box fr">
+						<a href="creat.html">
+							<button class="fr btn_i btn_first">CREATE NEW APP</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- 信息展示框 -->
+			<div class=" detail_content_box">
+				<div class="detail_select">
+					<span class="fl detail_span">Intents</span>
+					<span class="fr detail_span" data-toggle="modal" data-target="#AddEntity" type="button">
+						Add Intents
+					</span>
+					<span class="glyphicon glyphicon-plus-sign detail_icon fr" data-toggle="modal" data-target="#AddEntity" type="button"></span>
+					
+				</div>
+			</div>
+			<!-- Train the model -->
+			<div class="input_box wrapper">
+				<div class="input_size" style='textAlign:center'>
+					<span>Train the model</span>
+				</div>
+				<div class="input_bottom">
+					<input type="text" class="Asa_input fl">
+					<button class="Asa_btn fr">Analyze</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="AddEntity" class="modal fade " tabeindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="gridSystemModalLabel">Add Entity</h4>
+				</div>
+				<div class="modal-body">
+					<div class="creat">
+						<div class="creta_text">Creat New Entity</div>
+						
+						<div class="input-group col-xs-8" >
+							<input class="form-control creat_input" type="text" placeholder="Type a name">
+							<span class="input-group-btn">
+								<button class="btn btn-primary creat_btn" data-toggle="modal" data-target="#AddEntity" type="button">CREATE
+								</button>
+							</span>
+								
+						</div>
+					</div>
+					<div class="search">
+						<div class="search_text">Browse build-in intents</div>
+						<div class="input-group col-xs-8">
+							<input class="form-control search_input" type="text" placeholder="Search">
+						</div>
+						
+					</div>
+					<div class="list">
+						<div class="row list_row">
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>1</span>
+								</li>
+							</div>
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>2</span>
+								</li>
+							</div>
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>3</span>
+								</li>
+							</div>
+						</div>
+						<div class="row list_row">
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>ni</span>
+								</li>
+							</div>
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>wo</span>
+								</li>
+							</div>
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>ta</span>
+								</li>
+							</div>
+						</div>
+						<div class="row list_row">
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>you</span>
+								</li>
+							</div>
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>me</span>
+								</li>
+							</div>
+							<div class="row col-xs-4">
+								<span class="col-xs-2"></span>
+								<li class="col-xs-10 list_btn">
+									<span class="glyphicon glyphicon-plus"> </span> 
+									<span>we</span>
+								</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="turn_on" class="modal fade " tabeindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title " id="gridSystemModalLabel2" >turn on</h4>
+					<h5 class="">intent Details</h5>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="stats col-xs-5">
+							<div class="stats_text">Stats</div>
+							<div class="stats_form row">
+								<div class="stats_form_top">
+									<div class="col-xs-12 row">
+										<span class="col-xs-10">Sentences</span>
+										<span class="col-xs-2">0</span>
+									</div>
+									<div class="col-xs-12 row">
+										<span class="col-xs-10">Correct</span>
+										<span class="col-xs-2">0</span>
+									</div>
+								</div>
+								
+								<div class="stats_form_bottom">
+									<div class="col-xs-12 row">
+										<span class="col-xs-10">True Positives</span>
+										<span class="col-xs-2">0</span>
+									</div>
+									<div class="col-xs-12 row">
+										<span class="col-xs-10">False Positives</span>
+										<span class="col-xs-2">0</span>
+									</div>
+									<div class="col-xs-12 row">
+										<span class="col-xs-10">False Negatives</span>
+										<span class="col-xs-2">0</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row col-xs-7">
+							<div class="add col-xs-11">
+								<div class="add_text">Example of use</div>
+									<div class="input-group ">
+										<input class="form-control search_input" type="text" placeholder="Search">
+										<span class="input-group-btn">
+											<button class="btn btn-primary add_btn" data-toggle="modal" data-target="#turn_on" type="button">ADD
+											</button>
+										</span>
+									</div>
+								</div>
+								<div class="list">
+									<div class="row list_row">
+										<div class="row col-xs-8">
+											<span class="col-xs-2"></span>
+											<li class="col-xs-10 list_btn">
+												<span class="glyphicon glyphicon-plus"> </span> 
+												<span>1</span>
+											</li>
+										</div>
+									</div>
+									<div class="row list_row">
+										<div class="row col-xs-8">
+											<span class="col-xs-2"></span>
+											<li class="col-xs-10 list_btn">
+												<span class="glyphicon glyphicon-plus"> </span> 
+												<span>1</span>
+											</li>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$('.list li').click(function(index){
+		$(this).toggleClass('list_active')
+
+		if($(this).children('.glyphicon').hasClass('glyphicon-plus')){
+			 $(this).children('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-ok').css('color','green')
+		}else if($(this).children('.glyphicon').hasClass('glyphicon-ok')){
+			 $(this).children('.glyphicon').removeClass('glyphicon-ok').addClass('glyphicon-plus').css('color','white')
+		}
+	})
+	$('#AddEntity .modal-body .creat_btn').click(function(){
+		$('#turn_on').modal('show')
+	})
+</script>
+</html>
